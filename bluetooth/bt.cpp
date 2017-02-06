@@ -5,7 +5,7 @@
 //#include "pan1322.h"
 #include "pan1026.h"
 
-//#define DEBUG_BT_ENABLED	//开启调试
+#define DEBUG_BT_ENABLED	//开启调试
 
 #ifdef DEBUG_BT_ENABLED
 	#define DEBUG_BT(...) DEBUG(__VA_ARGS__)

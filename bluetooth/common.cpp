@@ -9,7 +9,7 @@
 #include "usart.h"
 
 uint8_t device_id[11]={0,1,2,3,4,5,6,7,8,9,10};
-volatile uint8_t Uart2_pos=0;
+volatile uint8_t Uart3_pos=0;
 
 // 获取系统时钟函数，作为pan1026.cpp状态机的延时时钟
 uint32_t task_get_ms_tick(void)
@@ -30,13 +30,13 @@ void GetID_str(char * id) //23 b
 //reset引脚拉高，回复正常
 void reset_pin_high(void)
 {
-	PAout(12) = 1;
+	PCout(11) = 1;
 }
 
 //reset引脚拉低，引发复位
 void reset_pin_low(void)
 {
-	PAout(12) = 0;
+	PCout(11) = 0;
 }
 
 
@@ -63,21 +63,21 @@ void GpioWrite(uint8_t Port, uint8_t Stat)
 //串口缓冲初始化
 void Usart::InitBuffers(uint8_t rx_size, uint8_t tx_size)
 {
-	Uart2_RcvCnt = 0;
-	Uart2_pos = 0; 
+	Uart3_RcvCnt = 0;
+	Uart3_pos = 0; 
 }
 
 //串口空检测
 bool Usart::isRxBufferEmpty()
 {
-	return !(Uart2_RcvCnt - Uart2_pos);
+	return !(Uart3_RcvCnt - Uart3_pos);
 }
 
 //清理缓冲
 void Usart::ClearRxBuffer()
 {
-	Uart2_RcvCnt = 0;
-	Uart2_pos = 0; 
+	Uart3_RcvCnt = 0;
+	Uart3_pos = 0; 
 }
 
 //空函数
@@ -88,7 +88,7 @@ void Usart::SetInterruptPriority(uint8_t p)
 //写数据到tc35661的rx引脚
 void Usart::Write(uint8_t c)
 {
-	Uart2SendHex(c); 
+	Uart3SendHex(c); 
 }
 
 //读取串口缓冲区数据
@@ -96,10 +96,10 @@ uint8_t Usart::Read()
 {
 	uint8_t c;
 	
-	c = Uart2_Buff[Uart2_pos++];
+	c = Uart3_Buff[Uart3_pos++];
 	
-	if(Uart2_RcvCnt == Uart2_pos){
-		Uart2_RcvCnt = Uart2_pos = 0;
+	if(Uart3_RcvCnt == Uart3_pos){
+		Uart3_RcvCnt = Uart3_pos = 0;
 	}
 
 	return c;

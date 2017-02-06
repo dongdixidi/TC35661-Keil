@@ -1,0 +1,312 @@
+Dependencies for Project 'TC35661', Target 'TC35661': (DO NOT MODIFY !)
+F (..\CORE\core_cm3.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\core_cm3.o --omf_browse ..\object\core_cm3.crf --depend ..\object\core_cm3.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\CORE\startup_stm32f10x_md.s)(0x5880350D)(--cpu Cortex-M3 -g --apcs=interwork -I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list ..\listing\startup_stm32f10x_md.lst --xref -o ..\object\startup_stm32f10x_md.o --depend ..\object\startup_stm32f10x_md.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\misc.o --omf_browse ..\object\misc.crf --depend ..\object\misc.d)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\stm32f10x_gpio.o --omf_browse ..\object\stm32f10x_gpio.crf --depend ..\object\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\stm32f10x_rcc.o --omf_browse ..\object\stm32f10x_rcc.crf --depend ..\object\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\stm32f10x_tim.o --omf_browse ..\object\stm32f10x_tim.crf --depend ..\object\stm32f10x_tim.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\stm32f10x_usart.o --omf_browse ..\object\stm32f10x_usart.crf --depend ..\object\stm32f10x_usart.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+F (..\HARDWARE\LED\led.c)(0x58819684)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\led.o --omf_browse ..\object\led.crf --depend ..\object\led.d)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+F (..\HARDWARE\KEY\key.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\key.o --omf_browse ..\object\key.crf --depend ..\object\key.d)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+F (..\HARDWARE\TIMER\timer.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\timer.o --omf_browse ..\object\timer.crf --depend ..\object\timer.d)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+F (..\SYSTEM\delay\delay.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\delay.o --omf_browse ..\object\delay.crf --depend ..\object\delay.d)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+F (..\SYSTEM\sys\sys.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\sys.o --omf_browse ..\object\sys.crf --depend ..\object\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+F (..\SYSTEM\stm32_usart\stm32_usart.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\stm32_usart.o --omf_browse ..\object\stm32_usart.crf --depend ..\object\stm32_usart.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+F (.\main.c)(0x5881D51B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\main.o --omf_browse ..\object\main.crf --depend ..\object\main.d)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+I (plusc2c.h)(0x5880350D)
+F (.\stm32f10x_it.c)(0x5880350D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\stm32f10x_it.o --omf_browse ..\object\stm32f10x_it.crf --depend ..\object\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x5880350D)
+I (stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x5880350D)
+I (stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+F (.\system_stm32f10x.c)(0x58817A33)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\system_stm32f10x.o --omf_browse ..\object\system_stm32f10x.crf --depend ..\object\system_stm32f10x.d)
+I (stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x5880350D)
+I (stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+F (..\bluetooth\bt.cpp)(0x588180A2)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\bt.o --omf_browse ..\object\bt.crf --depend ..\object\bt.d)
+I (..\bluetooth\bt.h)(0x5880350D)
+I (..\bluetooth\common.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (..\bluetooth\pan1026.h)(0x5880350D)
+I (..\bluetooth\usart.h)(0x5880350D)
+F (..\bluetooth\common.cpp)(0x58817E48)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\common.o --omf_browse ..\object\common.crf --depend ..\object\common.d)
+I (..\SYSTEM\sys\sys.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x588192A0)
+I (..\HARDWARE\TIMER\timer.h)(0x5880350D)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\HARDWARE\KEY\key.h)(0x5880350D)
+I (..\SYSTEM\stm32_usart\stm32_usart.h)(0x5880350D)
+I (..\HARDWARE\5110\5110LCD.h)(0x5880350D)
+I (..\bluetooth\common.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\USER\plusc2c.h)(0x5880350D)
+I (..\bluetooth\bt.h)(0x5880350D)
+I (..\bluetooth\usart.h)(0x5880350D)
+F (..\bluetooth\pan1026.cpp)(0x5880350D)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\stm32_usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\SYSH -I..\HARDWARE\5110 -I..\bluetooth-I D:\GD32\GD32_TC35661\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\object\pan1026.o --omf_browse ..\object\pan1026.crf --depend ..\object\pan1026.d)
+I (..\bluetooth\pan1026.h)(0x5880350D)
+I (..\bluetooth\common.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x5880350D)
+I (..\USER\stm32f10x.h)(0x58817C22)
+I (..\CORE\core_cm3.h)(0x5880350D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5880350D)
+I (..\USER\stm32f10x_conf.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5880350D)
+I (..\USER\stm32f10x_it.h)(0x5880350D)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5880350D)
+I (..\bluetooth\usart.h)(0x5880350D)
+I (..\bluetooth\bt.h)(0x5880350D)

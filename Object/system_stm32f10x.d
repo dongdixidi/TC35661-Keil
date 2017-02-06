@@ -1,0 +1,14 @@
+..\object\system_stm32f10x.o: system_stm32f10x.c
+..\object\system_stm32f10x.o: stm32f10x.h
+..\object\system_stm32f10x.o: ..\CORE\core_cm3.h
+..\object\system_stm32f10x.o: D:\Keil_v5\ARM\ARMCC\include\stdint.h
+..\object\system_stm32f10x.o: system_stm32f10x.h
+..\object\system_stm32f10x.o: stm32f10x_conf.h
+..\object\system_stm32f10x.o: ..\STM32F10x_FWLib\inc\stm32f10x_dma.h
+..\object\system_stm32f10x.o: ..\USER\stm32f10x.h
+..\object\system_stm32f10x.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\object\system_stm32f10x.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\object\system_stm32f10x.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\object\system_stm32f10x.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\object\system_stm32f10x.o: stm32f10x_it.h
+..\object\system_stm32f10x.o: ..\STM32F10x_FWLib\inc\misc.h

@@ -4,7 +4,7 @@
 #include "plusc2c.h"
 
 //***********************************************************
-
+#define BT_RST PCout(11)
 #define STR(A) 	(unsigned char*)(A)
 
 
@@ -16,54 +16,30 @@ int main ( void )
 	SystemInit();//系统时钟等初始化
 	if(SysTick_Config(72000*1))	 //配置错误返回1,max 16777216   默认72Mhz 时钟 ,1ms延时
 	{							
-		LED4_ON; 	//错误处理 		
 		while(1);
 	}
 	
 	LED_Init();	 //LED端口初始化
+    PCout(4)=1;
 	NVIC_Configuration();//设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	Uart1Init ( 115200 ); //串口初始化为115200
 	Uart2Init ( 115200 ); //串口初始化为115200
 	Uart3Init ( 115200 );//串口初始化为115200
 
-	Uart1SendStr(STR("uart1 init\r\n"));
-
-	Uart2SendStr(STR("uart2 init\r\n"));
-
-	Uart3SendStr(STR("uart3 init\r\n"));
-
-
-//	RCC_APB2PeriphClockCmd ( RCC_APB2Periph_GPIOB | RCC_APB2Periph_GPIOC | RCC_APB2Periph_GPIOD , ENABLE );
-//	RCC_APB2PeriphClockCmd ( RCC_APB2Periph_GPIOC, ENABLE );
-//	RCC_APB2PeriphClockCmd ( RCC_APB2Periph_GPIOD, ENABLE );
-
-	
-//	GPIO_Configuration_LCD();
-//	GPIO_ResetBits ( GPIOC, GPIO_Pin_10 );
-//	LED_LINGHT = 1;
-//	LCD_Init();
-//	LCD_Clear();
-//	LCD_WriteString_en ( 0, 0, PSTR("gsm starting") );
-//	LCD_WriteString_en ( 1, 1, PSTR("gsm starting") );
-//	LCD_WriteString_en ( 2, 2, PSTR("gsm starting") );
-//	LCD_WriteString_en ( 3, 3, PSTR("gsm starting") );
-//	LCD_WriteString_en ( 4, 4, PSTR("gsm starting") );
-//	Timerx_Init ( 1000, 7199 ); //10Khz的计数频率，1000次为10ms
+//	Uart1SendStr(STR("uart1 init\r\n"));
+//	Uart2SendStr(STR("uart2 init\r\n"));
+//	Uart3SendStr(STR("uart3 init\r\n"));
 	
 	C_bt_init();
 	C_bt_module_reset();
 	C_bt_module_init();
 	
-	 
+	BT_RST = 1;	//启动蓝牙模块
 	LED1_ON;
 	LED2_ON;
-	LED3_ON;
-	LED4_ON;
 	delay_ms ( 500 );
 	LED1_OFF;
-	LED2_OFF;
-	LED3_OFF;
-	LED4_OFF; 
+	LED2_OFF; 
 
 	while(1)
 	{
@@ -92,7 +68,7 @@ int main ( void )
 		
 		//模块配对后，通信连接ok
 		if(C_bt_device_active()){
-			LED3_ON;
+			LED2_ON;
 			if(Uart1_RcvCnt){
 				delay_ms(100);
 				//发送数据
@@ -100,7 +76,7 @@ int main ( void )
 				Uart1_RcvCnt = 0;				
 			}
 		}else{
-			LED3_OFF;
+			LED2_OFF;
 		}
 
 	}
